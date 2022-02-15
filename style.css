@@ -1,0 +1,25 @@
+body {
+  position: relative;
+}
+
+#cursor {
+  background: transparent;
+}
+
+#start {
+  position: absolute;
+  top: 450px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  object-fit: contain;
+  z-index: 1;
+  background-color: #0a0;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+#start:hover {
+  background-color: #0f0;
+}
